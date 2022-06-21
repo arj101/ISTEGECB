@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- cache contro  -->
+	<meta http-equiv="cache-control" content="no-cache" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="Expires" content="-1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<!-- cache control ends  -->
+	<link rel="icon" href="assets/img/ISTE logo White.png" type="image/icon type">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+		integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="/assets/css/bartonair.css">
+	<link rel="stylesheet" href="/assets/css/stars.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<title>ISTE GECBH</title>
+</head>
+<!-- oncontextmenu="return false" -->
+
+<body style="background: rgb(56 27 73);" oncontextmenu="return false">
+	<!-- Back to top button -->
+	<a id="back-to-top-button"></a>
+	<!-- bg animated dots -->
+	<div style="z-index: 0;">
+		<div class="starsec"></div>
+		<div class="starthird"></div>
+		<div class="starfourth"></div>
+		<div class="starfifth"></div>
+	</div>
+	<!-- <div class="line1"></div> -->
+	<!-- desktop view nav  -->
+	<div class="container-fluid d-none d-md-block">
+		<!-- style="background: rgba(0, 3, 34, 0); border-radius: 1rem; backdrop-filter: blur(20px);" -->
+		<div class="d-flex flex-wrap align-items-center justify-content-between mt-3 mx-5 py-2">
+			<div class="d-flex flex-wrap justify-content-center align-items-center" style="margin-left: 1rem;">
+				<a href="bartonair.html" class="headingdropbtn rotate"><img
+						src="/assets/img/bartonair/bartonair-onlylogo.png" style="width: 90px; height: auto;"></a>
+			</div>
+			<div id="header" class="d-flex flex-wrap align-items-center justify-content-center header">
+				<a class="nav-item" href="../bartonair.html">HOME</a>
+				<a class="nav-item" href="../index.html">ISTE</a>
+				<a class="nav-item" href="../events.html">EVENTS</a>
+				<a class="nav-item" href="../contact-us.html">CONTACT US</a>
+			</div>
+		</div>
+	</div>
+
+	<!-- mobile nav  -->
+	<div style="top: 0;" class="mobile-nav container-fluid d-block d-md-none py-3 px-3 backdrop-blur">
+		<div class="d-flex flex-wrap align-items-center justify-content-between">
+			<a href="bartonoidz.html" class="headingdropbtn rotate"><img src="/assets/img/bartonair/bartonair-onlylogo.png"
+					width="60px" height="auto"></a>
+			<a onclick="openNav()"><img src="/assets/svg/menu.svg" alt="iste gecbh" style="width: 33px;"></a>
+		</div>
+	</div>
+	<!-- mobile drawer -->
+	<div class="nav-container backdrop-blur">
+		<p
+			style="position: absolute;top: 15px;left: 32px;font-size: 22px;font-weight: 600;font-family: 'Poppins';margin: 0; padding: 0;">
+			ISTE GECBH</p>
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="../assets/svg/close.svg"
+				alt="istegecbh"></a>
+		<ul>
+			<li>
+				<a href="../index.html">
+					<span class="icon"><i class="fas fa-home"></i></span>
+					<span class="title">Home</span>
+				</a>
+			</li>
+			<li>
+				<a href="../events.html">
+					<span class="icon"><i class="fas fa-calendar-week"></i></span>
+					<span class="title">Events</span>
+				</a>
+			</li>
+			<li>
+				<a href="../membership-benefits.html">
+					<span class="icon"><i class="fas fa-user-shield"></i></span>
+					<span class="title">Membership</span>
+				</a>
+			</li>
+			<li>
+				<a href="../bartonair.html">
+					<span class="icon"><i class="fas fa-plane"></i></span>
+					<span class="title">Bartonair</span>
+				</a>
+			</li>
+			<li>
+				<a href="../bartonoidz.html">
+					<span class="icon"><i class="fas fa-robot"></i></span>
+					<span class="title">Bartonoidz</span>
+				</a>
+			</li>
+			<li>
+				<a href="../contact-us.html">
+					<span class="icon"><i class="fas fa-comment-alt"></i></span>
+					<span class="title">Contact</span>
+				</a>
+			</li>
+			<li>
+				<a href="../developers.html">
+					<span class="icon"><i class="fas fa-code"></i></span>
+					<span class="title">Developers info</span>
+				</a>
+			</li>
+			<li>
+				<a href="javascript:void(0)" onclick="closeNav()">
+					<span class="icon"><img src="../assets/svg/back-right.svg" style="width: 39px;" alt="istegecbh"></span>
+					<span class="title">Close</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+
+
+	<div class="container bartonair-event-head">
+		<div class="row m-2">
+			<h1 style="color: #F8004F;">A QUIZ WITH A TWIST</h1>
+			<p>
+				To commemorate the Birth Anniversary of the Missile Man of India, Dr. A. P. J. Abdul Kalam Bartonair under ISTE GECB Student Chapter conducted a very unique quiz. Teams of 2 were invited to participate in this competition with the theme being “All about space”. Different topics were given to the etams and they had to submit questions in the first round, where the questions were asked in a round - robin fashion. The top teams then moved onto the second round where the teams of two split into individuals where they battled it out against their once teammates to come out on top. 
+			</p>
+			<p>
+				The topics given to participants ranged from Satellites and Launch Vehicles to India in Space and Private Rocket Launch companies with everything in between.The event had a cash prize of Rs 500 and was free for all. 11 teams registered from 5 colleges and sent in questions. The live edition was held via Google Meet and Benoy Joy of University College, Trivandrum came out on top. The twists and turns of this innovative quiz enthralled participants who remarked that it was a “very different experience.” The quiz was the perfect tribute for our great Rocket Man of India as students’ zeal and enthusiasm and knowledge of space were out on full display.
+			</p>
+		</div>
+
+		<div class="row justify-content-center align-items-center mt-3">
+			<img class="m-2" src="/assets/img/bartonair/quiz-with-a-twist/poster.jpg" alt="istegecb" style="max-width: 400px;">
+			<img class="m-2" src="/assets/img/bartonair/quiz-with-a-twist/1.jpg" alt="istegecb" style="max-width: 400px;">
+		</div>
+	</div>
+
+
+	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script type="text/javascript">
+		function toggleBuidSession() {
+			var blur = document.getElementById('blur');
+			blur.classList.toggle('active')
+			var popup = document.getElementById('popup-1');
+			popup.classList.toggle('active')
+		}
+	</script>
+	<!-- Initialize Swiper -->
+	<script>
+		// latest news 
+		var swiper = new Swiper(".mySwiper", {
+			slidesPerView: 'auto',
+			spaceBetween: 0,
+			centeredSlides: false,
+			pagination: {
+				el: ".swiper-pagination",
+				clickable: true
+			},
+		});
+		// past events
+		var swiper2 = new Swiper(".mySwiper2", {
+			slidesPerView: 'auto',
+			spaceBetween: 0,
+			centeredSlides: false,
+			pagination: {
+				el: ".swiper-pagination",
+				clickable: true
+			},
+		});
+		// teams swiper
+		var swiper3 = new Swiper(".mySwiper3", {
+			slidesPerView: 'auto',
+			loop: false,
+			spaceBetween: 0,
+			centeredSlides: false,
+			// autoplay: {
+			// delay: 2000,
+			// disableOnInteraction: false,
+			// },
+			pagination: {
+				el: ".swiper-pagination",
+				clickable: true,
+			},
+			navigation: {
+				nextEl: ".swiper-button-next",
+				prevEl: ".swiper-button-prev",
+			},
+		});
+
+		// document.onkeydown = function(e) {
+		// if(event.keyCode == 123) {
+		// 	return false;
+		// }
+		// if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+		// 	return false;
+		// }
+		// if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+		// 	return false;
+		// }
+		// if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+		// 	return false;
+		// }
+		// if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+		// 	return false;
+		// }
+		// }
+		var btn = $('#back-to-top-button');
+
+		$(window).scroll(function () {
+			if ($(window).scrollTop() > 300) {
+				btn.addClass('show');
+			} else {
+				btn.removeClass('show');
+			}
+		});
+
+		btn.on('click', function (e) {
+			e.preventDefault();
+			$('html, body').animate({ scrollTop: 0 }, '300');
+		});
+
+
+	</script>
+
+	<!-- youtube  -->
+	<script src="https://apis.google.com/js/platform.js"></script>
+	<script src="/assets/js/main.js"></script>
+	<!-- Option 1: Bootstrap Bundle with Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+		crossorigin="anonymous"></script>
+	<!-- Option 2: Separate Popper and Bootstrap JS -->
+	<!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
